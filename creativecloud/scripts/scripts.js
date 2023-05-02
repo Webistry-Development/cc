@@ -132,7 +132,7 @@ async function loadArticlePromo(getMetadata) {
  * ------------------------------------------------------------
  */
 
-const miloLibs = setLibs(LIBS);
+export const miloLibs = setLibs(LIBS);
 
 (function loadStyles() {
   const paths = [`${miloLibs}/styles/styles.css`];

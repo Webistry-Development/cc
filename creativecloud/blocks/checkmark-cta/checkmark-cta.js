@@ -1,6 +1,5 @@
-import { getLibs } from '../../scripts/utils.js';
+import { miloLibs } from '../../scripts/scripts.js';
 
-const miloLibs = getLibs();
 const { createTag } = await import(`${miloLibs}/utils/utils.js`);
 const { decorateBlockAnalytics, decorateLinkAnalytics } = await import(`${miloLibs}/martech/attributes.js`);
 
