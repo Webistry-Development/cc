@@ -32,7 +32,7 @@ export const [setLibs, getLibs] = (() => {
       }
       const branch = new URLSearchParams(window.location.search).get('milolibs') || 'main';
       if (branch === 'local') return 'http://localhost:6456/libs';
-      if (branch.indexOf('--') > -1) return `https://${branch}.hlx.live/libs`;
+      if (branch.indexOf('--') > -1) return `https://${branch}.hlx.page/libs`;
       return `https://${branch}--milo--wbstry.hlx.live/libs`;
     }, () => libs,
   ];
