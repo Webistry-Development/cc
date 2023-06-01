@@ -125,6 +125,7 @@ const CONFIG = {
  */
 
 const miloLibs = setLibs(LIBS);
+console.log(miloLibs);
 
 (function loadStyles() {
   const paths = [`${miloLibs}/styles/styles.css`];
